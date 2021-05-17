@@ -1,0 +1,51 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  background-image: url("/cubes.jpg");
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15);
+  background-color: white;
+  color: black;
+}
+
+.logo {
+  margin-left: 20px;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  font-weight: 2000;
+  font-size: 16px;
+}
+
+.menu li {
+  margin-right: 10px;
+}
+header h1 {
+  font-size: 80px;
+  letter-spacing: 8px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  margin-top: 100px;
+  margin-bottom: 200px;
+  margin-left: 50px;
+}
+
+header p {
+  font-size: 24px;
+}
