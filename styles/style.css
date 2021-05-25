@@ -1,7 +1,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   color: white;
-  background-image: url("/cubes.jpg");
+  background-image: url("bilder/cubes.jpg");
 }
 
 .arbete {
@@ -14,7 +14,9 @@ body {
 
 .beskrivning {
   margin-left: 50px;
-  margin-top: 0px;
+  margin-top: 2px;
+  margin-bottom: 4px;
+  letter-spacing: 1.5px;
 }
 nav {
   display: flex;
@@ -41,6 +43,7 @@ nav {
 
 .menu li {
   margin-right: 10px;
+  letter-spacing: 1px;
 }
 header h1 {
   font-size: 80px;
@@ -56,6 +59,7 @@ header {
   margin-top: 100px;
   margin-bottom: 200px;
   margin-left: 50px;
+  letter-spacing: 1px;
 }
 
 header p {
